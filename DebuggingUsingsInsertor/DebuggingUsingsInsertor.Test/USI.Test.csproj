@@ -9,8 +9,8 @@
     <ProjectGuid>{AA991F10-35E1-4979-A3B8-9BEA06AAD1CA}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>UsingsInsertor.Test</RootNamespace>
-    <AssemblyName>UsingsInsertor.Test</AssemblyName>
+    <RootNamespace>DebuggingUsingsInsertor.Test</RootNamespace>
+    <AssemblyName>DebuggingUsingsInsertor.Test</AssemblyName>
     <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <TargetFrameworkProfile />
@@ -130,7 +130,7 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\UsingsInsertor\USI.csproj">
+    <ProjectReference Include="..\DebuggingUsingsInsertor\USI.csproj">
       <Project>{1A78E8A1-2CF5-4935-9CBB-27BA07FB5140}</Project>
       <Name>USI</Name>
     </ProjectReference>

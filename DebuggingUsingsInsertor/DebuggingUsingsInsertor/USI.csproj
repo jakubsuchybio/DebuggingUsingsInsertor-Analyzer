@@ -8,8 +8,8 @@
     <ProjectGuid>{1A78E8A1-2CF5-4935-9CBB-27BA07FB5140}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>UsingsInsertor</RootNamespace>
-    <AssemblyName>UsingsInsertor</AssemblyName>
+    <RootNamespace>DebuggingUsingsInsertor</RootNamespace>
+    <AssemblyName>DebuggingUsingsInsertor</AssemblyName>
     <ProjectTypeGuids>{786C830F-07A1-408B-BD7F-6EE04809D6DB};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
     <TargetFrameworkProfile>Profile7</TargetFrameworkProfile>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>

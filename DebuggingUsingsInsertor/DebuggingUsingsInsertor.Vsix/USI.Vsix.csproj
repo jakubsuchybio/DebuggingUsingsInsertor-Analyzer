@@ -13,8 +13,8 @@
     <ProjectGuid>{BDBC1AEB-FE75-43D3-A400-55C03E264383}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>UsingsInsertor.Vsix</RootNamespace>
-    <AssemblyName>UsingsInsertor.Vsix</AssemblyName>
+    <RootNamespace>DebuggingUsingsInsertor.Vsix</RootNamespace>
+    <AssemblyName>DebuggingUsingsInsertor.Vsix</AssemblyName>
     <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
     <GeneratePkgDefFile>false</GeneratePkgDefFile>
     <IncludeAssemblyInVSIXContainer>false</IncludeAssemblyInVSIXContainer>
@@ -52,7 +52,7 @@
     </None>
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\UsingsInsertor\USI.csproj">
+    <ProjectReference Include="..\DebuggingUsingsInsertor\USI.csproj">
       <Project>{1A78E8A1-2CF5-4935-9CBB-27BA07FB5140}</Project>
       <Name>USI</Name>
     </ProjectReference>

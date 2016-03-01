@@ -1,19 +1,23 @@
 ﻿<?xml version="1.0"?>
 <package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
   <metadata>
-    <id>UsingsInsertor</id>
+    <id>DebuggingUsingsInsertor</id>
     <version>1.0.0.0</version>
-    <title>UsingsInsertor</title>
-    <authors>Jakub</authors>
-    <owners>Jakub</owners>
+    <title>Debugging Usings Insertor</title>
+    <authors>jakubsuchybio</authors>
+    <owners>jakubsuchybio</owners>
     <licenseUrl>http://LICENSE_URL_HERE_OR_DELETE_THIS_LINE</licenseUrl>
-    <projectUrl>http://PROJECT_URL_HERE_OR_DELETE_THIS_LINE</projectUrl>
+    <projectUrl>https://github.com/jakubsuchybio/UsingsInsertor-Analyzer</projectUrl>
     <iconUrl>http://ICON_URL_HERE_OR_DELETE_THIS_LINE</iconUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
-    <description>UsingsInsertor</description>
+    <description>
+      This is an example of roslyn analyzer, that can create diagnostics when there are missing some usings, that are required for using debugging data transformation via lambdas and Linqs in Watch or Immediate windows.
+
+      Because Microsoft still haven't added support for post-loading libraries like System.Linq when debugging and therefor it is impossible to use Linq data transformations inside Watch or Immediate windows when debugging.
+    </description>
     <releaseNotes>Summary of changes made in this release of the package.</releaseNotes>
     <copyright>Copyright</copyright>
-    <tags>UsingsInsertor, analyzers</tags>
+    <tags>lambda,window,insert,debugging,LINQ,usings,watch,immediate,analyzer</tags>
     <frameworkAssemblies>
       <frameworkAssembly assemblyName="System" targetFramework="" />
     </frameworkAssemblies>
