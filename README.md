@@ -6,10 +6,8 @@ that are required for using debugging data transformation via lambdas and Linqs 
 Because Microsoft still haven't added support for post-loading libraries like System.Linq when debugging and therefor
 it is impossible to use Linq data transformations inside Watch or Immediate windows when debugging.
 
-This extension is available in Visual Studio Gallery here:
-
+This extension is available in Visual Studio Gallery here:</br>
 https://visualstudiogallery.msdn.microsoft.com/de8b7852-d77f-417d-95eb-4b645751de3b
 
-And also as an NuGet package here:
-
+And also as an NuGet package here:</br>
 https://www.nuget.org/packages/DebuggingUsingsInsertor/1.0.5904.40201
